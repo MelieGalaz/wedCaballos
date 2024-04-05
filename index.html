@@ -11,179 +11,201 @@
     <title>Document</title>
 </head>
 
-<body class="font-sans ">
-    <div class="bg-[url('imagenes/perro.jpg')] h-screen bg-center bg-cover  ">
-        <header class="flex w-full  ">
-            <nav class="flex items-center w-full justify-between ">
-                <div class="flex flex-col ml-5">
-                    <img src="imagenes/perroLogo.png" alt="" class="m-auto h-20">
-                    <h2 class="text-xl">Perros Wed</h2>
-                </div>
-                <ul class="text-xl flex gap-6 cursor-pointer">
-                    <li class=" hover:text-[#c12deb] hover:scale-125">Inicio</li>
-                    <li class=" hover:text-[#c12deb]  hover:scale-125">Perros</li>
-                    <li class=" hover:text-[#c12deb]  hover:scale-125">Más perritos</li>
-                    <li class=" hover:text-[#c12deb]  hover:scale-125">Contacto</li>
-                </ul>
-                <div class="flex gap-5 mr-5  ">
-                    <a href="#"><i class="fa-brands fa-facebook text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
-                    <a href="#"><i class="fa-brands fa-github text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <div class="mx-48 mb-8 text-5xl mt-[500px] gap-y-2.5 text-purple-950">
-                    <h1 class="text-center">Mi página de perritos</h1>
-                    <h3 class="mt-[20px] ml-[180px] italic  ">Let's learn tailwind together!
-                    </h3>
-                </div>
-            </section>
-    </div>
-    <section class="flex flex-col justify-center items-center  bg-green-50  h-screen h-full">
+<body>
 
-        <h3 class="text-5xl text-center font-medium text-[#373737] -mt-8 mb-8 font-sans">Mis Perros</h3>
-        <div class="flex flex-row">
-            <div class="flex justify-between  mx-7 flex-col p-4 w-80 bg-white drop-shadow-lg
-                    hover:scale-105">
-                <img src=" imagenes/perro1.jpg" alt="">
-                <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 1</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
-                    perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
-                    fuga,
-                    nam in tempora commodi sit nobis!</p>
-                <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
+
+    <header class="flex  flex-col bg-[url('imagenes/perro.jpg')] h-screen bg-center bg-cover bg-no-repeat">
+        <nav class="flex items-center  justify-between ">
+            <div class="flex flex-col lg:ml-5 items-center">
+                <img src="imagenes/perroLogo.png" alt="" class="m-auto h-12 lg:h-20">
+                <h2 class="text-xl">Perros Wed</h2>
+            </div>
+
+            <ul class="lg:text-xl flex lg:gap-6 cursor-pointer lg:flex-row flex-col ">
+                <li class=" hover:text-[#c12deb] hover:scale-125  hover:duration-700">Inicio</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700 ">Perros</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700">Más perritos</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700">Contacto</li>
+            </ul>
+            <div class="flex lg:gap-5 lg:mr-5  ">
+                <a href="#"><i
+                        class="fa-brands fa-facebook text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-github text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-linkedin text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
+            </div>
+        </nav>
+
+        <div class="lg:mx-48 lg:mb-8  mt-96 lg:mt-[28rem] text-center text-purple-950">
+            <h1 class="text-center text-2xl lg:text-5xl font-medium ">Mi página de perritos</h1>
+            <h3 class="mt-[20px]  italic text-2xl lg:text-5xl font-medium ">Let's learn tailwind together!
+            </h3>
+        </div>
+
+    </header>
+
+    <main>
+
+
+        <section class="flex flex-col lg:justify-center lg:items-center gap-7 lg:gap-8 bg-green-50 pb-8">
+
+            <h3 class="text-5xl text-center font-medium text-[#373737] pt-8 font-sans">Mis Perros</h3>
+            <div class="flex lg:flex-row  lg:items-center lg:justify-center flex-col gap-7 m-auto">
+                <div class="flex justify-between  mx-7 flex-col p-4 w-80 bg-white drop-shadow-lg
+                    hover:scale-110 hover:duration-700">
+                    <img src=" imagenes/perro1.jpg" alt="">
+                    <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
+                        perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
+                        fuga,
+                        nam in tempora commodi sit nobis!</p>
+                    <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
                     rounded-lg m-auto">botón
-                    1</button>
-            </div>
-            <div class="flex justify-between mx-7  flex-col p-4 w-80 bg-white drop-shadow-lg
-                    hover:scale-105">
-                <img src="imagenes/perro4.jfif" alt="">
-                <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 2</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
-                    perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
-                    fuga,
-                    nam
-                    in tempora commodi sit nobis!</p>
-                <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
+                        1</button>
+                </div>
+                <div class="flex justify-between mx-7  flex-col p-4 w-80 bg-white drop-shadow-lg
+                    hover:scale-110 hover:duration-700">
+                    <img src="imagenes/perro4.jfif" alt="">
+                    <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
+                        perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
+                        fuga,
+                        nam
+                        in tempora commodi sit nobis!</p>
+                    <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
                     rounded-lg m-auto">botón 2</button>
-            </div>
-            <div class="flex justify-between mx-7  flex-col p-4 w-80 bg-white drop-shadow-lg
-                    hover:scale-105">
-                <img src="imagenes/perro2.jpg" alt="">
-                <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 3</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
-                    perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
-                    fuga,
-                    nam
-                    in tempora commodi sit nobis!</p>
-                <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
+                </div>
+                <div class="flex justify-between mx-7  flex-col p-4 w-80 bg-white drop-shadow-lg
+                    hover:scale-110 hover:duration-700 pb-8">
+                    <img src="imagenes/perro2.jpg" alt="">
+                    <h4 class="text-xl  font-medium text-[#373737] font-sans">Perro 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quaerat eum debitis aspernatur
+                        perspiciatis officiis, delectus cupiditate ut aut tempore voluptatum impedit reiciendis
+                        fuga,
+                        nam
+                        in tempora commodi sit nobis!</p>
+                    <button class="w-28 my-4 h-8 bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
                     rounded-lg m-auto">botón 3</button>
+                </div>
             </div>
-        </div>
-    </section>
-    <section class="h-screen mt-[100px]">
-        <h3 class="text-5xl text-center font-medium text-[#373737] font-sans">Otra sección</h3>
-        <div class="flex flex-row mt-7  p-4 h-[300px]  bg-green-50 text-center ">
+        </section>
+        <section class=" flex flex-col lg:justify-center lg:items-center gap-7 lg:gap-8 ">
+            <h3 class="text-5xl text-center font-medium text-[#373737] pt-8 font-sans">Otra sección</h3>
+            <div class="flex flex-col items-center lg:flex-row  lg:p-4 lg:h-72  bg-green-50 text-center ">
 
-            <img src=" imagenes/perro6.jpg" alt="" class="object-contain rounded-lg">
+                <img src=" imagenes/perro6.jpg" alt="" class="object-contain rounded-lg w-[21rem]">
 
-            <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                ipsam
-                a
-                distinctio atque
-                architecto quis,
-                dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis doloribus aperiam
-                accusantium quisquam. Illo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel temporibus autem
-                aliquam illo vitae a possimus omnis sunt obcaecati reiciendis consectetur aperiam, doloribus eum esse?
-                Id ab perferendis corporis excepturi.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum est quidem commodi sint molestias
-                perferendis voluptatibus rem labore, reiciendis perspiciatis quas ut dicta sit nemo, et deserunt,
-                possimus inventore laudantium.</p>
-        </div>
-        <div class="flex flex-row-reverse mt-7  p-4 h-[300px]   text-center ">
+                <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                    ipsam
+                    a
+                    distinctio atque
+                    architecto quis,
+                    dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis doloribus
+                    aperiam
+                    accusantium quisquam. Illo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel temporibus
+                    autem
+                    aliquam illo vitae a possimus omnis sunt obcaecati reiciendis consectetur aperiam, doloribus eum
+                    esse?
+                    Id ab perferendis corporis excepturi.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum est quidem commodi sint
+                    molestias
+                    perferendis voluptatibus rem labore, reiciendis perspiciatis quas ut dicta sit nemo, et deserunt,
+                    possimus inventore laudantium.</p>
+            </div>
+            <div class="flex flex-col items-center lg:flex-row-reverse    lg:p-4 lg:h-72  text-center  ">
 
-            <img src="imagenes/perro7.jfif" alt="" class="object-contain rounded-lg">
-            <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                ipsam a distinctio atque architecto
-                quis,
-                dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis doloribus
-                aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                nisi tenetur eius sequi quae exercitationem, blanditiis totam, rerum maxime beatae deleniti harum illo
-                at eveniet reiciendis, odit ipsam ullam! Officia. Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Repudiandae at sapiente ad temporibus est molestias possimus perferendis tempora velit maxime.
-                Fuga reiciendis aperiam sit atque, magnam consectetur! Doloremque, ipsa ipsum!</p>
-        </div>
-        <div class="flex flex-row mt-7  p-4 h-[300px] bg-green-50 text-center ">
+                <img src="imagenes/perro7.jfif" alt="" class="object-contain rounded-lg w-[21rem]">
+                <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                    ipsam a distinctio atque architecto
+                    quis,
+                    dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis doloribus
+                    aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                    nisi tenetur eius sequi quae exercitationem, blanditiis totam, rerum maxime beatae deleniti harum
+                    illo
+                    at eveniet reiciendis, odit ipsam ullam! Officia. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing
+                    elit. Repudiandae at sapiente ad temporibus est molestias possimus perferendis tempora velit maxime.
+                    Fuga reiciendis aperiam sit atque, magnam consectetur! Doloremque, ipsa ipsum!</p>
+            </div>
+            <div class="flex flex-col items-center lg:flex-row  lg:p-4 lg:h-72  bg-green-50 text-center ">
 
-            <img src="imagenes/perro8.jpg" alt="" class="object-contain rounded-lg">
+                <img src="imagenes/perro8.jpg" alt="" class="object-contain rounded-lg w-[21rem]">
 
-            <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                ipsam a distinctio atque architecto
-                quis, dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis
-                doloribus aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas exercitationem quasi quam, mollitia necessitatibus temporibus ipsam, eligendi tempore non neque
-                eos quis enim. Ipsam pariatur, iure nulla est deserunt quam. Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Dolor laborum, similique, voluptate fugiat labore non omnis quam odio expedita quae
-                nulla quisquam reprehenderit officia ea placeat fuga maiores dolore deleniti.</p>
-        </div>
-        <div class="flex flex-row-reverse mt-7  p-4 h-[300px]  text-center ">
+                <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                    ipsam a distinctio atque architecto
+                    quis, dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis
+                    doloribus aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Voluptas exercitationem quasi quam, mollitia necessitatibus temporibus ipsam, eligendi tempore non
+                    neque
+                    eos quis enim. Ipsam pariatur, iure nulla est deserunt quam. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Dolor laborum, similique, voluptate fugiat labore non omnis quam odio expedita
+                    quae
+                    nulla quisquam reprehenderit officia ea placeat fuga maiores dolore deleniti.</p>
+            </div>
+            <div class="flex flex-col items-center lg:flex-row-reverse  lg:p-4 lg:h-72  text-center ">
 
-            <img src="imagenes/perro5.jfif" alt="" class="object-contain rounded-lg">
+                <img src="imagenes/perro5.jfif" alt="" class="object-contain rounded-lg w-[21rem]">
 
-            <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-                ipsam a distinctio atque architecto
-                quis, dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis
-                doloribus aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolore porro accusantium sint suscipit dicta repellendus, culpa quibusdam, corrupti nostrum perferendis
-                et autem mollitia ratione. Quas facilis provident sint soluta sit Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Perferendis, laborum nostrum obcaecati culpa aut totam iure eius exercitationem
-                corporis nihil, distinctio suscipit id expedita explicabo itaque, laboriosam voluptate ad deleniti.</p>
-        </div>
-    </section>
-    <section class="h-screen mt-[600px] bg-green-50">
-        <h3 class="text-5xl text-center font-medium text-[#373737] pt-10">Contacto</h3>
-        <form class=" flex flex-col w-[700px] h-[500px] m-auto mt-[50px] rounded-lg p-5
+                <p class="m-[40px] text-justify text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
+                    ipsam a distinctio atque architecto
+                    quis, dolores similique asperiores. Nam laborum recusandae excepturi molestias maiores omnis
+                    doloribus aperiam accusantium quisquam. Illo? Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Dolore porro accusantium sint suscipit dicta repellendus, culpa quibusdam, corrupti nostrum
+                    perferendis
+                    et autem mollitia ratione. Quas facilis provident sint soluta sit Lorem ipsum dolor sit amet
+                    consectetur
+                    adipisicing elit. Perferendis, laborum nostrum obcaecati culpa aut totam iure eius exercitationem
+                    corporis nihil, distinctio suscipit id expedita explicabo itaque, laboriosam voluptate ad deleniti.
+                </p>
+            </div>
+        </section>
+        <section class=" bg-green-50">
+            <h3 class="text-5xl text-center font-medium text-[#373737] pt-8 font-sans">Contacto</h3>
+            <form class=" flex flex-col  w-3/4 m-auto mt-8 mb-8 rounded-lg p-5
             bg-[url('imagenes/fondoForm2.jpg')] ">
-            <h2 class="text-center text-3xl">Contactanos!</h2>
-            <div>
-                <div class="flex flex-col">
-                    <label for="name" class="my-4 text-2xl">Nombre:</label>
-                    <input type="text" id="name" placeholder="Su nombre" class="w-full p-1 rounded-lg" />
+                <h2 class="text-center text-3xl">Contactanos!</h2>
+                <div>
+                    <div class="flex flex-col">
+                        <label for="name" class="my-4 text-2xl">Nombre:</label>
+                        <input type="text" id="name" placeholder="Su nombre" class="w-full p-1 rounded-lg" />
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="email" class="my-4 text-2xl">Email:</label>
+                        <input type="email" id="email" placeholder="Su e-mail" class="w-full p-1 rounded-lg" />
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="comments" class="my-4 text-2xl">Comentario:</label>
+                        <textarea id="comments" placeholder="Su comentario"
+                            class="w-full p-1 rounded-lg h-[100px]"></textarea>
+                    </div>
                 </div>
-                <div class="flex flex-col">
-                    <label for="email" class="my-4 text-2xl">Email:</label>
-                    <input type="email" id="email" placeholder="Su e-mail" class="w-full p-1 rounded-lg" />
-                </div>
-                <div class="flex flex-col">
-                    <label for="comments" class="my-4 text-2xl">Comentario:</label>
-                    <textarea id="comments" placeholder="Su comentario"
-                        class="w-full p-1 rounded-lg h-[100px]"></textarea>
-                </div>
-            </div>
-            <input type="submit" value="Enviar" class="w-[200px] my-4 h-[50px] bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
+                <input type="submit" value="Enviar" class="w-[200px] my-4 h-[50px] bg-green text-white bg-[#335c01] hover:bg-[#d8ffa8] hover:text-[#050505]
                     rounded-lg m-auto" />
-        </form>
-    </section>
+            </form>
+        </section>
+    </main>
     <footer class=" bg-[url('imagenes/fondoFooter.jpg')] h-[150px]">
         <div class="flex flex-col gap-6 items-center justify-center ">
-            <ul class="text-xl flex gap-6 cursor-pointer">
-                <li class=" hover:text-[#c12deb] hover:scale-125">Inicio</li>
-                <li class=" hover:text-[#c12deb]  hover:scale-125">Perros</li>
-                <li class=" hover:text-[#c12deb]  hover:scale-125">Más perritos</li>
-                <li class=" hover:text-[#c12deb]  hover:scale-125">Contacto</li>
+            <ul class="text-lg flex gap-6 cursor-pointer">
+                <li class=" hover:text-[#c12deb] hover:scale-125 hover:duration-700">Inicio</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700">Perros</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700">Más perritos</li>
+                <li class=" hover:text-[#c12deb]  hover:scale-125 hover:duration-700">Contacto</li>
             </ul>
             <div class="flex gap-5 mr-5 items-center justify-center  ">
-                <a href="#"><i class="fa-brands fa-facebook text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
-                <a href="#"><i class="fa-brands fa-github text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin text-2xl hover:text-[#c12deb]  hover:scale-125"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-facebook text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-github text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
+                <a href="#"><i
+                        class="fa-brands fa-linkedin text-2xl hover:text-[#c12deb]  hover:scale-125 hover:duration-700"></i></a>
             </div>
             <h3 class="text-[#373737] text-center">- Melie Galaz -</h3>
         </div>
     </footer>
-    </main>
-    </div>
 </body>
 
 </html>
